@@ -19,7 +19,7 @@ while i<=4:
 s='we are good in python'
 print(s.index('o'))
 
-while loop
+# while loop
 n=1
 while n<=10:
     print(n)

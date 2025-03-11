@@ -18,5 +18,5 @@ print(c)
 
 # convert float to int 
 a = input("Enter a number: ")
-b = fioat(a)
+b = float(a)
 print(b)
