@@ -15,3 +15,8 @@ a = input("Enter a something: ")
 b = input("enter a number")
 c = a+" "+str(b)
 print(c)
+
+# convert float to int 
+a = input("Enter a number: ")
+b = fioat(a)
+print(b)
