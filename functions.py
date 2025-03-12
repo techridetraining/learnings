@@ -58,12 +58,30 @@
 
 # x=student("sam",20,987654321)
 # print(x)
+# Global variable
+x = 10
 
-def func(a):
-    a=a+10
+# def my_function():
+#     # Local variable
+#     y = 5
+#     print("Inside the function:")
+#     print("Global variable x:", x)  # Accessing global variable
+#     print("Local variable y:", y)   # Accessing local variable
 
-c=func(5)
-print(c)
+# # Calling the function
+# my_function()
+
+# print("Outside the function:")
+# print("Global variable x:", x)  # Can access global variable
+# # print("Local variable y:", y)  # This will raise an error, as 'y' is local to the function
+
+
+
+# def func(a):
+#     a=a+10
+
+# c=func(5)
+# print(c)
 # print(f'global:{a}')
     
 # class Example:
