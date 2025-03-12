@@ -59,7 +59,7 @@
 # x=student("sam",20,987654321)
 # print(x)
 
-def func(int(a)):
+def func(a):
     a=a+10
 
 c=func(5)

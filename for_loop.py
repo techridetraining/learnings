@@ -13,8 +13,8 @@
 # for t in range(10,0,-1):
 #     print(t)
     
-# for t in range(5,15,+1):
-#     print(t)
+for t in range(5,15,+1):
+    print(t)
     
 # for t in range(20,10,-1):
 #     print(t)
@@ -38,9 +38,9 @@
 #         print(j, end="")
 #     print()
 
-for t in range(1,6,):  # Outer Loop
-    for j in range(1,t+1):  # Inner Loop
-        print(t, end=" ")
-    print()
+# for t in range(1,6,):  # Outer Loop
+#     for j in range(1,t+1):  # Inner Loop
+#         print(t, end=" ")
+#     print()
 
 
