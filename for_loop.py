@@ -13,8 +13,8 @@
 # for t in range(10,0,-1):
 #     print(t)
     
-for t in range(5,15,+1):
-    print(t)
+# for t in range(5,15,+1):
+#     print(t)
     
 # for t in range(20,10,-1):
 #     print(t)
