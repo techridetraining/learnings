@@ -2,8 +2,8 @@ POST http://127.0.0.1:5000/icecreams
 Content-Type: application/json
 
 {
-    "id": 1,
-    "flavour": "chocolate",
+    "id": 7,
+    "flavour": "dark chocloate",
     "parlour": "ice magic"
 }
 ### Get all ice creams
@@ -16,17 +16,17 @@ Content-Type: application/json
 
 
 ### Update Ice Cream Flavour and parlour
-PUT http://localhost:5000/icecreams/7
+PUT http://localhost:5000/icecreams/10
 Content-Type: application/json
 
 {
-    
+    "id": 7,
     "flavour": "mango",
     "parlour": "cream town"
 }    
 
 
 ### Delete an ice cream by ID
-DELETE http://127.0.0.1:5000/icecreams/2
+DELETE http://127.0.0.1:5000/icecreams/7
 
 Content-Type: application/json
