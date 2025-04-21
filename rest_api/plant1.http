@@ -1,0 +1,35 @@
+
+Post http://127.0.0.1:5000/plants
+Content-Type: application/json
+
+{    
+
+      "id":5,
+    "name": "Lilly",
+    "type_of_plant": "herbaceous",
+    "category": "flowering"
+}
+
+### Get all plants
+GET http://127.0.0.1:5000/plants
+Accept: application/json
+
+### Get all plants
+GET http://127.0.0.1:5000/plants?name=lilly
+Accept: application/json
+
+### Updating all plants
+PUT  http://127.0.0.1:5000/plants/7
+Content-Type: application/json
+
+{
+     "id":6,
+    "name": "cactus",
+    "type_of_plant": "succulent",
+    "category": "non-flowering"
+
+}
+
+###  Delete plant by id
+DELETE  http://127.0.0.1:5000/plants/6
+Content-Type: application/json
